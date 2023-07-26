@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "title": "parches",
+      "description": "KNC",
+      "price": 4000,
+      "thumbnail": "parches.jpg",
+      "code": "A0001",
+      "stock": 1000
+    },
+    {
+      "id": 2,
+      "title": "rimmel",
+      "description": "KNC",
+      "price": 4000,
+      "thumbnail": "parches.jpg",
+      "code": "A0002",
+      "stock": 1000
+    },
+    {
+      "id": 3,
+      "title": "serum",
+      "description": "sturn",
+      "price": 6000,
+      "thumbnail": "serum.jpg",
+      "code": "A0003",
+      "stock": 500
+    },
+    {
+      "id": 4,
+      "title": "mascarilla",
+      "description": "magic stripes",
+      "price": 3000,
+      "thumbnail": "mascarilla.jpg",
+      "code": "A0004",
+      "stock": 500
+    },
+    {
+      "id": 5,
+      "title": "serum",
+      "description": "glossier",
+      "price": 6500,
+      "thumbnail": "glossier.jpg",
+      "code": "A0005",
+      "stock": 500
+    },
+    {
+      "id": 6,
+      "title": "exfoliante",
+      "description": "GO-TO",
+      "price": 3000,
+      "thumbnail": "goto.jpg",
+      "code": "A0006",
+      "stock": 500
+    },
+    {
+      "id": 7,
+      "title": "crema",
+      "description": "the ordinary",
+      "price": 6000,
+      "thumbnail": "url",
+      "code": "A0007",
+      "stock": 500
+    },
+    {
+      "id": 8,
+      "title": "scrub",
+      "description": "knc",
+      "price": 2000,
+      "thumbnail": "scrub.jpg",
+      "code": "A0008",
+      "stock": 500
+    },
+    {
+      "id": 9,
+      "title": "limpiador",
+      "description": "GO-TO",
+      "price": 4500,
+      "thumbnail": "gotocleaner.jpg",
+      "code": "A0009",
+      "stock": 500
+    },
+    {
+      "id": 10,
+      "title": "baby cream",
+      "description": "sturm",
+      "price": 1500,
+      "thumbnail": "sturnbabycream.jpg",
+      "code": "A0010",
+      "stock": 500
+    }
+  ]
