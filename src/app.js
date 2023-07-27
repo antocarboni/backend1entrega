@@ -1,20 +1,17 @@
-import express, { application } from "express"
-import productRouter from "../routes/product.router.js"
-const app=express()
-const PORT=8080;
+import express from "express"
+import cartRouter from "../routes/carts.router.js"
+import productRouter from "../routes/products.router.js"
+const app=express();
 
+const PORT=8080;
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
 
-app.use(express.Router())
-app.use("/api", productRouter)
+//rutas
+app.use("/api",productRouter)
+app.use("/api",cartRouter)
 
-import {dirname} from "path"
-import { fileURLToPath } from "url";
-
-const __dirname=dirname(fileURLToPath(import.meta.url))
-console.log(__dirname);
 
 app.listen(PORT,()=>{
     console.log("El servidor está funcionando!")
